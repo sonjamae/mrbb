@@ -34,7 +34,7 @@
 		?>
 	</nav><!-- #site-navigation -->
 <?php endif; ?>
-<?php if ( has_nav_menu( 'footer' ) ) : ?>
+<?php if ( has_nav_menu( 'member-menu' ) ) : ?>
 	<nav id="site-navigation" class="member-navigation" aria-label="<?php esc_attr_e( 'Member menu', 'twentytwentyone' ); ?>">
 		<div class="menu-button-container">
 			<button id="member-mobile-menu" class="button" aria-controls="member-menu-list" aria-expanded="false">
