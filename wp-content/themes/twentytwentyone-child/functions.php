@@ -11,19 +11,14 @@ add_action('wp_enqueue_scripts', 'twentytwentyone_child_styles');
 // add_action( 'widgets_init', 'child_register_sidebar' );
 // function child_register_sidebar(){
 // 	register_sidebar(array(
-// 		'name' => 'Header',
-// 		'id' => 'sidebar-2',
-// 		'before_widget' => '<div id="%2$s" class="widget %2$s">',
+// 		'name' => 'Sidebar',
+// 		'id' => 'sidebar',
+// 		'before_widget' => '<div id="%3$s" class="widget %3$s">',
 // 		'after_widget' => '</div>',
 // 		'before_title' => '<h4 class="widgettitle">',
 // 		'after_title' => '</h4>',
 // 	));
 // }
-
-function register_my_menu() {
-	register_nav_menu('member-menu',__( 'Member Menu' ));
-	}
-	add_action( 'init', 'register_my_menu' );
 
 
 
