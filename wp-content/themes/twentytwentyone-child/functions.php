@@ -20,6 +20,13 @@ add_action('wp_enqueue_scripts', 'twentytwentyone_child_styles');
 // 	));
 // }
 
+// custom fonts
+function add_google_fonts() {
+    wp_register_style( 'googleFonts', 'https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display&display=swap', array(), null);
+    wp_enqueue_style( 'googleFonts');
+}
+add_action( 'wp_enqueue_scripts', 'add_google_fonts' );
+
 
 
 ?>
