@@ -11,10 +11,8 @@ Text Domain: twentytwentyone-child
 Tags: mrbb
 Template: twentytwentyone
 */
-
 :root {
     --heading-blue:#1E5BB2;
-    --h2-bar-green:#d7de52;
 }
 /* TYPOGRAPHY-reference */
 @font-face {
@@ -146,7 +144,7 @@ input.search-submit:hover {
     background-color: white;
 }
 .site-main{
-    margin:0 3%;
+    margin: 1rem 3% 3rem 3%;
 }
 .site-main * {
     max-width: 1250px !important;
@@ -238,15 +236,8 @@ div#wpforms-78, div#wpforms-1732 {
 	padding:1rem;
 }
 /* FAQs */
-details{
-    padding:0.5rem 1rem;
-}
-details:hover, details:active{
-    background-color:#dedede;
-    cursor:pointer;
-}
-.faq-q {
-    font-weight:bold;
+.ea-header a:focus  {
+	background-color: #dedede !important;
 }
 /* Resources page */
 .resource-menu ul{
@@ -274,7 +265,6 @@ details:hover, details:active{
     background-color: #918f90;
     min-width: 100%;
     padding: 1rem 3%;
-    margin: 0;
 }
 #colophon p{
     color: white;
