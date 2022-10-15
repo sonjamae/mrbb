@@ -129,12 +129,17 @@ ul.sub-menu li ul li {
     margin-right: -0.75rem 
 }
 input.search-submit {
-    padding-top: 0.5rem;
+    padding-top: 0.45rem;
     padding-left: 1rem;
     margin-top: 0.65rem !important;
     background-color: lightblue !important;
+		color: #000 !important;
+		font-weight: 400;
     border-radius: 0 5px 5px 0;
     max-width: 6rem;
+}
+input.search-submit:hover {
+		border: 2px dotted;
 }
 /* BODY - All pages*/
 .site-content{
@@ -208,6 +213,20 @@ a{
 .wp-block-group .wp-block-group__inner-container p, .wp-block-group .wp-block-group__inner-container ul {
 	margin: 0.5rem;
 }
+/* Group- w/ download */
+.wp-block-group__inner-container div.wp-block-file {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    margin-bottom:0;
+}
+.wp-block-file > a{
+    margin:0;
+}
+.wp-block-group__inner-container a.wp-block-file__button{
+    padding:0.5rem 1rem;
+}
+
 /* Buttons */
 .wp-block-buttons>.wp-block-button {
 	margin:1rem 0;
