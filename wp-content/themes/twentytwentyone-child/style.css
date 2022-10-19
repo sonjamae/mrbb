@@ -189,9 +189,6 @@ h2 {
 .site-main h2, .site-main h3{
     color: var(--heading-blue);
 }
-.site-main h2, .site-main h3, .site-main h4, .site-main h5{
-/* 	margin */
-}
 .site-main p, .site-main ul{
 	margin-bottom: 1rem;
 }
@@ -231,13 +228,16 @@ a{
 }
 /* WP Forms */
 div#wpforms-78, div#wpforms-1732 {
-    margin:1rem 0;
-	background-color: #dedede;
-	padding:1rem;
+  	margin:1rem 0;
+		background-color: #dedede;
+		padding:1rem;
+}
+.um-field-area input {
+		padding-right: 1.5rem;
 }
 /* FAQs */
 .ea-header a:focus  {
-	background-color: #dedede !important;
+		background-color: #dedede !important;
 }
 /* Resources page */
 .resource-menu ul{
@@ -252,8 +252,8 @@ div#wpforms-78, div#wpforms-1732 {
 }
 .resource-menu a{
     color: var(--heading-blue);
-	display:block;
-	padding: 1rem;
+		display:block;
+		padding: 1rem;
 }
 .resource-menu a:hover, .resource-menu a:active {
     background-color:#000000;
