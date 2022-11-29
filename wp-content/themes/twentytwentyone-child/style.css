@@ -355,8 +355,11 @@ div#wpforms-78, div#wpforms-1732 {
         padding-right: auto;
         padding-right: 3%;
     }
-    #primary-menu-list #menu-item-1690, #primary-menu-list #menu-item-1857 {
-        max-width: 19rem;
+    #primary-menu-list #menu-item-194 svg {
+			margin-left: -2rem;
+    }
+	#primary-menu-list #menu-item-5611 svg {
+			margin-left: -2.5rem;
     }
 	.primary-navigation {
 		margin-right: auto;
