@@ -11,6 +11,7 @@ Text Domain: twentytwentyone-child
 Tags: mrbb
 Template: twentytwentyone
 */
+
 :root {
     --heading-blue:#1E5BB2;
 }
@@ -70,6 +71,9 @@ Template: twentytwentyone
 .menu-item-has-children svg{
     margin-left: -1.25rem;
     padding-top: 0.25rem;
+}
+.menu-item-194 svg, .menu-item-5611 svg {
+	margin-left: -1rem !important;
 }
 ul.sub-menu {
     padding: 0.5rem 0 !important;
@@ -388,12 +392,12 @@ div#wpforms-78, div#wpforms-1732 {
     }
     .menu-button-container {
         top: -3rem !important;
-		padding-top: 0 !important;
+				padding-top: 0 !important;
     }
     #primary-menu-list {
         padding-right: 0;
     }
-    .search-form{
+    .search-form {
         margin-bottom: 1rem;
     }
 }
@@ -409,7 +413,7 @@ div#wpforms-78, div#wpforms-1732 {
     .menu-button-container {
         top: -1.25rem !important;
     }
-    .search-form{
+    .search-form {
         margin-top: -0.55rem;
         margin-right: 2rem;
     }
@@ -417,7 +421,7 @@ div#wpforms-78, div#wpforms-1732 {
 @media screen and (max-width: 900px) {
     .primary-navigation-open .primary-navigation {
         width: 100%;
-        position: fixed;
+        position: fixed;	
     }
     .primary-navigation > .primary-menu-container {
         visibility: hidden;
