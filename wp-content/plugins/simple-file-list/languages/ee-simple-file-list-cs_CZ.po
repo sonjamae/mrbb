@@ -1,0 +1,1702 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple File List\n"
+"POT-Creation-Date: 2022-10-31 10:51-0500\n"
+"PO-Revision-Date: 2022-10-31 11:25-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Generator: Poedit 3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ee-simple-file-list.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: ee-admin-page.php:44
+msgid "File List"
+msgstr "Seznam souborů"
+
+#: ee-admin-page.php:52
+msgid "List Settings"
+msgstr "Nastavení seznamu"
+
+#: ee-admin-page.php:57
+msgid "Upgrade Version"
+msgstr "Verze aktualizace"
+
+#: ee-admin-page.php:67
+msgid "Author"
+msgstr "Autor"
+
+#: ee-admin-page.php:71
+msgid "Get Help"
+msgstr "Získejte pomoc"
+
+#: ee-admin-page.php:114 ee-list-display.php:98
+msgid "Back to the Files"
+msgstr "Zpět do souborů"
+
+#: ee-admin-page.php:122
+msgid "Cancel Upload"
+msgstr "Zrušit nahrávání"
+
+#: ee-admin-page.php:123 includes/ee-upload-form.php:48
+msgid "Upload Files"
+msgstr "Nahrát soubor(-y)"
+
+#: ee-admin-page.php:124
+msgid "Re-Scan Files"
+msgstr "Znovu naskenujte soubory"
+
+#: ee-admin-page.php:125
+msgid "Create Folder"
+msgstr "Vytvořit složku"
+
+#: ee-admin-page.php:141
+msgid "Files"
+msgstr "Soubory"
+
+#: ee-admin-page.php:141
+msgid "Sorted by"
+msgstr "Seřazeno podle"
+
+#: ee-admin-page.php:146
+msgid "Last Changed"
+msgstr "Poslední změna"
+
+#: ee-admin-page.php:182 includes/ee-list-settings.php:88
+msgid "File List Settings"
+msgstr "Nastavení seznamu souborů"
+
+#: ee-admin-page.php:188 includes/ee-upload-settings.php:108
+msgid "File Upload Settings"
+msgstr "Nastavení nahrávání souborů"
+
+#: ee-admin-page.php:194
+msgid "Notification Settings"
+msgstr "Nastavení upozornění"
+
+#: ee-list-display.php:52
+msgid "Upload Processing Error. Files may not have been added properly."
+msgstr "Chyba při zpracování nahrávání. Soubory nemusely být správně přidány."
+
+#: ee-list-display.php:135
+msgid "Upload some files and they will appear here."
+msgstr "Nahrajte některé soubory a zobrazí se zde."
+
+#: ee-list-display.php:161
+msgid "Edit File"
+msgstr "Editovat soubor"
+
+#: ee-list-display.php:164 includes/ee-list-settings.php:541
+msgid "Added"
+msgstr "Přidáno"
+
+#: ee-list-display.php:165 includes/ee-list-settings.php:545
+msgid "Changed"
+msgstr "Změněno"
+
+#: ee-list-display.php:166 includes/ee-list-display-table.php:38
+#: includes/ee-upload-settings.php:255
+msgid "Size"
+msgstr "Velikost"
+
+#: ee-list-display.php:169 includes/ee-list-settings.php:314
+msgid "File Name"
+msgstr "Název souboru"
+
+#: ee-list-display.php:171
+msgid "Change the name."
+msgstr "Změna názvu."
+
+#: ee-list-display.php:171
+msgid "Some characters are not allowed. These will be automatically replaced."
+msgstr "Některé znaky nejsou povoleny. Ty budou automaticky nahrazeny."
+
+#: ee-list-display.php:175
+msgid "File Nice Name"
+msgstr "Soubor Pěkný název"
+
+#: ee-list-display.php:177
+msgid "Enter a name that will be shown in place of the real file name."
+msgstr "Zadejte název, který se zobrazí místo skutečného názvu souboru."
+
+#: ee-list-display.php:177
+msgid "You may use special characters not allowed in the file name."
+msgstr "V názvu souboru můžete použít speciální znaky, které nejsou povoleny."
+
+#: ee-list-display.php:179 includes/ee-list-settings.php:568
+msgid "File Description"
+msgstr "Popis souboru"
+
+#: ee-list-display.php:181
+msgid "Add a description."
+msgstr "Přidejte popis."
+
+#: ee-list-display.php:181
+msgid "Use this field to describe this file and apply keywords for searching."
+msgstr ""
+"Toto pole slouží k popisu tohoto souboru a použití klíčových slov pro "
+"vyhledávání."
+
+#: ee-list-display.php:183 includes/ee-admin-footer.php:42
+msgid "Save"
+msgstr "Uložit"
+
+#: ee-simple-file-list.php:83 includes/ee-class.php:312
+msgid "Edit"
+msgstr "Upravit"
+
+#: ee-simple-file-list.php:84
+msgid "Are you sure you want to delete this?"
+msgstr "Opravdu to chcete smazat?"
+
+#: ee-simple-file-list.php:85
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: ee-simple-file-list.php:86
+msgid "The Link Has Been Copied"
+msgstr "Odkaz byl zkopírován"
+
+#: ee-simple-file-list.php:87
+msgid "Upload Limit"
+msgstr "Limit nahrávání"
+
+#: ee-simple-file-list.php:88
+msgid "This file is too large"
+msgstr "Tento soubor je příliš velký"
+
+#: ee-simple-file-list.php:89
+msgid "This file type is not allowed"
+msgstr "Tento typ souboru není povolen"
+
+#: ee-simple-file-list.php:90
+msgid "Upload Failed"
+msgstr "Nahrávání selhalo"
+
+#: ee-simple-file-list.php:91
+msgid "Files Selected"
+msgstr "Vybrané soubory"
+
+#: ee-simple-file-list.php:94 includes/ee-list-settings.php:267
+#: includes/ee-list-settings.php:515 includes/ee-list-settings.php:529
+#: includes/ee-list-settings.php:555 includes/ee-list-settings.php:569
+#: includes/ee-list-settings.php:583 includes/ee-list-settings.php:599
+#: includes/ee-list-settings.php:610 includes/ee-list-settings.php:621
+msgid "Show"
+msgstr "Zobrazit"
+
+#: ee-simple-file-list.php:95
+msgid "Hide"
+msgstr "Skrýt"
+
+#: ee-simple-file-list.php:621
+msgid "File Delete Failed"
+msgstr "Smazání souboru se nezdařilo"
+
+#: ee-simple-file-list.php:625
+msgid "Item is Not a File"
+msgstr "Položka není soubor"
+
+#: ee-simple-file-list.php:682
+msgid "File Not Found"
+msgstr "Soubor nebyl nalezen"
+
+#: ee-simple-file-list.php:687
+msgid "Could Not Change the Name"
+msgstr "Nelze změnit název"
+
+#: ee-simple-file-list.php:687
+msgid "to"
+msgstr "do"
+
+#: ee-simple-file-list.php:697
+msgid "Invalid New File Name"
+msgstr "Neplatný název nového souboru"
+
+#: ee-simple-file-list.php:724
+msgid "Admin List"
+msgstr "Seznam administrátorů"
+
+#: ee-simple-file-list.php:725
+msgid "Settings"
+msgstr "Nastavení"
+
+#: includes/ee-admin-footer.php:29
+msgid "Use English on the Back-End"
+msgstr "Použití angličtiny na zadní straně"
+
+#: includes/ee-admin-footer.php:48
+msgid ""
+"IMPORTANT: Allowing the public to upload files to your web server comes with "
+"risk."
+msgstr ""
+"DŮLEŽITÉ: Povolení veřejnosti nahrávat soubory na váš webový server je "
+"spojeno s rizikem."
+
+#: includes/ee-admin-footer.php:49
+msgid ""
+"Please go to Upload Settings and ensure that you only use the file types "
+"that you absolutely need."
+msgstr ""
+"Přejděte do Nastavení nahrávání a ujistěte se, že používáte pouze typy "
+"souborů, které naprosto potřebujete."
+
+#: includes/ee-admin-footer.php:50
+msgid "Open each file submitted carefully."
+msgstr "Pečlivě otevřete každý odeslaný soubor."
+
+#: includes/ee-admin-footer.php:52
+msgid "Plugin Documentation"
+msgstr "Dokumentace k pluginu"
+
+#: includes/ee-admin-footer.php:53
+msgid "Plugin Website"
+msgstr "Web pluginu"
+
+#: includes/ee-admin-footer.php:54
+msgid "Give Feedback"
+msgstr "Dát zpětnou vazbu"
+
+#: includes/ee-admin-footer.php:55
+msgid "Caution"
+msgstr "Pozor"
+
+#: includes/ee-admin-footer.php:59
+msgid "Version"
+msgstr "Verze"
+
+#: includes/ee-admin-header.php:9
+msgid "Upgrade Now"
+msgstr "Upgradovat nyní"
+
+#: includes/ee-admin-header.php:13 includes/ee-admin-header.php:49
+#: includes/ee-list-settings.php:107
+msgid "Upgrade to Pro"
+msgstr "Povýšit na PRO"
+
+#: includes/ee-admin-header.php:14
+msgid ""
+"Add sub-folder support, bulk file editing, directory location customization "
+"and add extensions for searching and more flexible user and role file "
+"restrictions."
+msgstr ""
+"Přidejte podporu podsložek, hromadné úpravy souborů, přizpůsobení umístění "
+"adresáře a přidejte rozšíření pro vyhledávání a flexibilnější omezení "
+"souborů pro uživatele a role."
+
+#: includes/ee-admin-header.php:14
+msgid "The low cost is just once per domain. No recurring fees."
+msgstr "Nízké náklady jsou pouze jednou za doménu."
+
+#: includes/ee-admin-header.php:29
+msgid "Place this shortcode on a page, post or widget."
+msgstr "Umístěte tento zkrácený kód na stránku, příspěvek nebo widget."
+
+#: includes/ee-admin-header.php:31
+msgid "Copy"
+msgstr "Kopírovat"
+
+#: includes/ee-admin-header.php:38
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/ee-admin-header.php:44
+msgid "Easy File Sharing for WordPress"
+msgstr "Snadné sdílení souborů pro WordPress"
+
+#: includes/ee-admin-header.php:47
+msgid "Documentation"
+msgstr "Dokumentace"
+
+#: includes/ee-admin-header.php:48
+msgid "Get Support"
+msgstr "Získat Podporu"
+
+#: includes/ee-class.php:286
+msgid "Open"
+msgstr "Otevřít"
+
+#: includes/ee-class.php:294
+msgid "Download"
+msgstr "Stáhnout"
+
+#: includes/ee-class.php:302
+msgid "Copy Link"
+msgstr "Kopírovat odkaz"
+
+#: includes/ee-class.php:313
+msgid "Delete"
+msgstr "Smazat"
+
+#: includes/ee-class.php:318
+msgid "Move"
+msgstr "Přesunout"
+
+#: includes/ee-class.php:319
+msgid "Users"
+msgstr "Uživatelé"
+
+#: includes/ee-class.php:320
+msgid "Send"
+msgstr "Odeslat"
+
+#: includes/ee-class.php:1115
+msgid "Corrupt Image File Deleted"
+msgstr "Odstranění poškozeného obrazového souboru"
+
+#: includes/ee-class.php:1339
+msgid "FILE NOT READABLE"
+msgstr "Soubor není čitelný"
+
+#: includes/ee-class.php:1456
+msgid "Uploader Information"
+msgstr "Informace o uploaderu"
+
+#: includes/ee-class.php:1461
+msgid "Uploaded By"
+msgstr "Nahráno uživatelem"
+
+#: includes/ee-class.php:1510
+msgid "File Upload Notice"
+msgstr "Oznámení o nahrání souboru"
+
+#: includes/ee-class.php:1553 includes/ee-class.php:1570
+msgid "This is not a valid email address."
+msgstr "Toto není platná e-mailová adresa."
+
+#: includes/ee-email-settings.php:50
+msgid "Notification Settings Saved"
+msgstr "Nastavení oznámení uloženo"
+
+#: includes/ee-email-settings.php:76
+msgid "Notifications Settings"
+msgstr "Nastavení oznámení"
+
+#: includes/ee-email-settings.php:77 includes/ee-list-settings.php:89
+#: includes/ee-upload-settings.php:109
+msgid "Instructions"
+msgstr "Instrukce"
+
+#: includes/ee-email-settings.php:83 includes/ee-email-settings.php:203
+#: includes/ee-list-settings.php:95 includes/ee-list-settings.php:658
+#: includes/ee-upload-settings.php:115 includes/ee-upload-settings.php:338
+msgid "SAVE"
+msgstr "ULOŽIT"
+
+#: includes/ee-email-settings.php:91
+msgid "Notifications"
+msgstr "Oznámení"
+
+#: includes/ee-email-settings.php:103
+msgid "Enable Notifications"
+msgstr "Povolit oznámení"
+
+#: includes/ee-email-settings.php:104
+msgid "Enable"
+msgstr "Povolit"
+
+#: includes/ee-email-settings.php:108
+msgid ""
+"Send an email notification when a file is uploaded on the front-side of the "
+"website."
+msgstr ""
+"Odešlete e-mailové upozornění, když se soubor nahraje na přední stranu webu."
+
+#: includes/ee-email-settings.php:124
+msgid "Notice Recipients"
+msgstr "Všimněte si příjemců"
+
+#: includes/ee-email-settings.php:128
+msgid "Notice Email"
+msgstr "E-mail s oznámením"
+
+#: includes/ee-email-settings.php:130
+msgid "Send an email here whenever a file is uploaded."
+msgstr "Pokaždé, když je soubor nahrán, pošlete sem e-mail."
+
+#: includes/ee-email-settings.php:133
+msgid "Copy to Email"
+msgstr "Kopírovat do e-mailu"
+
+#: includes/ee-email-settings.php:135
+msgid "Copy all notice emails here."
+msgstr "Zkopírujte sem všechny e-maily s upozorněním."
+
+#: includes/ee-email-settings.php:137
+msgid "Blind Copy to Email"
+msgstr "Slepá kopie do e-mailu"
+
+#: includes/ee-email-settings.php:139
+msgid "Blind copy all notice emails here."
+msgstr "Všechny e-maily s upozorněním sem zkopírujte naslepo."
+
+#: includes/ee-email-settings.php:140
+msgid "Separate multiple addresses with a comma."
+msgstr "Oddělte více adres čárkou."
+
+#: includes/ee-email-settings.php:155 includes/ee-email-settings.php:181
+msgid "Message Details"
+msgstr "Podrobnosti zprávy"
+
+#: includes/ee-email-settings.php:159
+msgid "Your Name"
+msgstr "Vaše jméno"
+
+#: includes/ee-email-settings.php:161
+msgid "The visible name in the From field."
+msgstr "Viditelný název v poli Od."
+
+#: includes/ee-email-settings.php:163
+msgid "Reply Address"
+msgstr "Adresa pro odpovědi"
+
+#: includes/ee-email-settings.php:165
+msgid "The notification message's reply-to address."
+msgstr "Adresa pro odpověď zprávy."
+
+#: includes/ee-email-settings.php:187
+msgid "Message Subject"
+msgstr "Předmět zprávy"
+
+#: includes/ee-email-settings.php:190
+msgid "The notification message subject line."
+msgstr "Předmět zprávy oznámení."
+
+#: includes/ee-email-settings.php:192
+msgid "Message Body"
+msgstr "Tělo zprávy"
+
+#: includes/ee-email-settings.php:195
+msgid "This is the text for all file upload notification messages."
+msgstr "Toto je text pro všechna oznámení o nahrávání souborů."
+
+#: includes/ee-email-settings.php:195
+msgid "To insert links to the files, use this shortcode:"
+msgstr "Chcete-li vložit odkazy na soubory, použijte tento zkrácený kód:"
+
+#: includes/ee-email-settings.php:195
+msgid "To insert a link pointing to the file list page, use this shortcode:"
+msgstr ""
+"Chcete-li vložit odkaz směřující na stránku se seznamem souborů, použijte "
+"tento zkrácený kód:"
+
+#: includes/ee-functions.php:202
+msgid "Bad Directory Given"
+msgstr "Špatná adresa"
+
+#: includes/ee-functions.php:221
+msgid "Cannot Create Windows Directory:"
+msgstr "Nelze vytvořit adresář systému Windows:"
+
+#: includes/ee-functions.php:228
+msgid "Cannot Create Linux Directory:"
+msgstr "Nelze vytvořit adresář Linux:"
+
+#: includes/ee-functions.php:232
+msgid "ERROR: Could not detect operating system"
+msgstr "CHYBA: Nepodařilo se zjistit operační systém"
+
+#: includes/ee-functions.php:237
+msgid "Cannot create the upload directory"
+msgstr "Nelze vytvořit adresář pro nahrávání"
+
+#: includes/ee-functions.php:238
+msgid "Please check directory permissions"
+msgstr "Zkontrolujte prosím oprávnění adresáře"
+
+#: includes/ee-functions.php:267
+msgid "WARNING! Could not write file"
+msgstr "POZOR! Nelze zapsat soubor"
+
+#: includes/ee-functions.php:268
+msgid ""
+"Please upload a blank index file to this location to prevent unauthorized "
+"access."
+msgstr ""
+"Do tohoto umístění nahrajte prázdný indexový soubor, abyste zabránili "
+"neoprávněnému přístupu."
+
+#: includes/ee-functions.php:372
+msgid "Files Uploaded"
+msgstr "Soubory byly nahrány"
+
+#: includes/ee-functions.php:374
+msgid "File Uploaded"
+msgstr "Soubor odeslán"
+
+#: includes/ee-functions.php:519
+msgid "File Upload Complete"
+msgstr "Nahrávání souborů je dokončeno"
+
+#: includes/ee-get-pro.php:16
+msgid "Upgrade to Simple File List Pro"
+msgstr "Upgradujte na Simple File List Pro"
+
+#: includes/ee-get-pro.php:22
+msgid ""
+"The Pro version adds new features and is also extendable, allowing you to "
+"add more specific features as needed."
+msgstr ""
+"Verze Pro přidává nové funkce a je také rozšiřitelná, což umožňuje přidávat "
+"další specifické funkce podle potřeby."
+
+#: includes/ee-get-pro.php:22
+msgid ""
+"Cost is just once per domain, including one staging domain. There are no "
+"recurring fees."
+msgstr ""
+"Cena je pouze jednou za doménu, včetně jedné domény pro staging. Neplatíte "
+"žádné opakované poplatky."
+
+#: includes/ee-get-pro.php:24
+msgid "Create Unlimited Sub-Folders"
+msgstr "Vytváření neomezeného počtu podsložek"
+
+#: includes/ee-get-pro.php:27
+msgid "Create folders and unlimited levels of sub-folders."
+msgstr "Vytvářejte složky a neomezené úrovně podsložek."
+
+#: includes/ee-get-pro.php:28
+msgid "Use the shortcode to display specific folders:"
+msgstr "Pomocí zkráceného kódu můžete zobrazit konkrétní složky:"
+
+#: includes/ee-get-pro.php:31
+msgid "Display different folders in different places on your site."
+msgstr "Zobrazte na svém webu různé složky na různých místech."
+
+#: includes/ee-get-pro.php:32
+msgid "Breadcrumb navigation indicates where you are."
+msgstr "Navigace drobečkové navigace označuje, kde se nacházíte."
+
+#: includes/ee-get-pro.php:33
+msgid "You can even show multiple folders on the same page"
+msgstr "Na jedné stránce můžete zobrazit i více složek"
+
+#: includes/ee-get-pro.php:34
+msgid "Front-side users cannot navigate above the folder you specify."
+msgstr ""
+"Uživatelé na přední straně se nemohou pohybovat nad složkou, kterou zadáte."
+
+#: includes/ee-get-pro.php:35
+msgid "Sort folders first or sort along with the files."
+msgstr "Zvolte nejprve seřadit složky nebo seřadit soubory."
+
+#: includes/ee-get-pro.php:36
+msgid "Display folder sizes and the count of items within."
+msgstr "Zobrazení velikosti složek a počtu položek v nich."
+
+#: includes/ee-get-pro.php:40
+msgid "Get More Features"
+msgstr "Získejte další funkce"
+
+#: includes/ee-get-pro.php:43
+msgid "Optionally define a custom directory for your file list."
+msgstr "Volitelně můžete definovat vlastní adresář pro seznam souborů."
+
+#: includes/ee-get-pro.php:44
+msgid ""
+"Bulk file editing allows you to download, move, delete or add descriptions "
+"to many files or folders at once."
+msgstr ""
+"Hromadné úpravy souborů vám umožňují stahovat, přesouvat, mazat nebo "
+"přidávat popisy k mnoha souborům nebo složkám najednou."
+
+#: includes/ee-get-pro.php:45
+msgid ""
+"Edit file dates. Change the date added or the modification date of any file "
+"or folder."
+msgstr ""
+"Upravit data souborů. Změňte datum přidání nebo datum úpravy libovolného "
+"souboru nebo složky."
+
+#: includes/ee-get-pro.php:46
+msgid ""
+"Allow front-end users to download entire folders, or multiple files or "
+"folders at once as a zip file."
+msgstr ""
+"Umožnit uživatelům rozhraní front-end stahovat celé složky nebo více souborů "
+"či složek najednou jako soubor zip."
+
+#: includes/ee-get-pro.php:47
+msgid ""
+"Use the Shortcode Builder to create custom snippets for secondary file list "
+"location."
+msgstr ""
+"Pomocí nástroje Shortcode Builder můžete vytvořit vlastní fragmenty pro "
+"umístění sekundárního seznamu souborů."
+
+#: includes/ee-get-pro.php:48
+msgid ""
+"A Tools Tab allows you to reset settings, the file list array and delete "
+"orphaned thumbnails."
+msgstr ""
+"Karta Nástroje umožňuje obnovit nastavení, pole seznamu souborů a odstranit "
+"osiřelé miniatury."
+
+#: includes/ee-get-pro.php:49
+msgid "Go Pro and recieve much improved customer support."
+msgstr "Přejděte na platformu Pro a získejte mnohem lepší zákaznickou podporu."
+
+#: includes/ee-get-pro.php:50
+msgid "Updating Pro to newer versions works just like the free plugin."
+msgstr "Aktualizace na novější verze je stejná jako bezplatný plugin."
+
+#: includes/ee-get-pro.php:53
+msgid "Pro is Extendable"
+msgstr "Pro je rozšiřitelný"
+
+#: includes/ee-get-pro.php:56
+msgid "Add extensions to give you even more features:"
+msgstr "Přidáním rozšíření získáte ještě více funkcí:"
+
+#: includes/ee-get-pro.php:58
+msgid "File Access Manager"
+msgstr "Správce přístupu k souborům"
+
+#: includes/ee-get-pro.php:59
+msgid ""
+"Create additional file lists, each with its own directory, settings and "
+"access restrictions."
+msgstr ""
+"Vytvořit další seznamy souborů, každý s vlastním adresářem, nastavením a "
+"omezením přístupu."
+
+#: includes/ee-get-pro.php:60
+msgid "Limit list or file access by WordPress user or role."
+msgstr ""
+"Omezení přístupu k seznamu nebo souboru podle uživatele nebo role ve službě "
+"WordPress."
+
+#: includes/ee-get-pro.php:61
+msgid "Search and Pagination"
+msgstr "Hledání a stránkování"
+
+#: includes/ee-get-pro.php:62
+msgid "Search for files by name, description, date range or file owner."
+msgstr ""
+"Vyhledávání souborů podle názvu, popisu, rozsahu data nebo vlastníka souboru."
+
+#: includes/ee-get-pro.php:63
+msgid "Add pagination to break up large file lists into smaller sections."
+msgstr ""
+"Přidání stránkování pro rozdělení velkých seznamů souborů na menší části."
+
+#: includes/ee-get-pro.php:64
+msgid "Send Files by Email"
+msgstr "Odesílání souborů e-mailem"
+
+#: includes/ee-get-pro.php:65
+msgid ""
+"Send an email with links to your files. Send to multiple recipients and CC "
+"more."
+msgstr ""
+"Pošlete e-mail s odkazy na své soubory. Odesílejte více příjemcům a CC více."
+
+#: includes/ee-get-pro.php:66
+msgid "Media Player"
+msgstr "Přehrávač médií"
+
+#: includes/ee-get-pro.php:67
+msgid "Adds a HTML5 media player below each audio file."
+msgstr "Pod každý zvukový soubor přidá přehrávač médií HTML5."
+
+#: includes/ee-get-pro.php:71
+msgid "Try the Pro Demo"
+msgstr "Vyzkoušejte demo verzi Pro"
+
+#: includes/ee-get-pro.php:72
+msgid "Upgrade to Pro Now"
+msgstr "Upgradujte na Pro Now"
+
+#: includes/ee-list-display-table.php:19
+msgid "Thumb"
+msgstr "Náhled"
+
+#: includes/ee-list-display-table.php:28 includes/ee-upload-form.php:69
+msgid "Name"
+msgstr "Jméno"
+
+#: includes/ee-list-display-table.php:49
+msgid "Date"
+msgstr "Datum"
+
+#: includes/ee-list-settings.php:63 includes/ee-upload-settings.php:85
+msgid "Settings Saved"
+msgstr "Nastavení bylo uloženo"
+
+#: includes/ee-list-settings.php:103
+msgid "List Location"
+msgstr "Umístění seznamu"
+
+#: includes/ee-list-settings.php:107
+msgid ""
+"The Pro Version allows you to define a custom file list directory. It must "
+"only be relative to the WordPress home directory."
+msgstr ""
+"Verze Pro umožňuje definovat vlastní adresář seznamu souborů. Musí být pouze "
+"relativní vůči domovskému adresáři WordPressu."
+
+#: includes/ee-list-settings.php:120
+msgid "File List Access"
+msgstr "Přístup k seznamu souborů"
+
+#: includes/ee-list-settings.php:124
+msgid "Front-End Display"
+msgstr "Přední displej"
+
+#: includes/ee-list-settings.php:126
+msgid "Show To"
+msgstr "Zobrazit"
+
+#: includes/ee-list-settings.php:134
+msgid "Everyone"
+msgstr "Všichni"
+
+#: includes/ee-list-settings.php:140
+msgid "Only Logged in Users"
+msgstr "Přihlášení uživatelé"
+
+#: includes/ee-list-settings.php:146
+msgid "Only Logged in Admins"
+msgstr "Pouze přihlášení správci"
+
+#: includes/ee-list-settings.php:152
+msgid "Hide Completely"
+msgstr "Úplné skrytí"
+
+#: includes/ee-list-settings.php:155
+msgid "Determine who you will show the front-side list to."
+msgstr "Určete, komu zobrazíte seznam na přední straně."
+
+#: includes/ee-list-settings.php:160
+msgid "Back-End Access"
+msgstr "Back-end přístup"
+
+#: includes/ee-list-settings.php:162
+msgid "Choose Role"
+msgstr "Zvolte si roli"
+
+#: includes/ee-list-settings.php:170
+msgid "Subscribers and Above"
+msgstr "Předplatitelé a výše"
+
+#: includes/ee-list-settings.php:177
+msgid "Contributers and Above"
+msgstr "Přispěvatelé a výše"
+
+#: includes/ee-list-settings.php:184
+msgid "Authors and Above"
+msgstr "Autoři a výše"
+
+#: includes/ee-list-settings.php:191
+msgid "Editors and Above"
+msgstr "Redaktoři a výše"
+
+#: includes/ee-list-settings.php:198
+msgid "Admins Only"
+msgstr "Pouze správci"
+
+#: includes/ee-list-settings.php:202
+msgid "Determine who can access the back-side settings."
+msgstr "Určete, kdo má přístup k zadním nastavením."
+
+#: includes/ee-list-settings.php:208
+msgid "Front-End Management"
+msgstr "Front-end management"
+
+#: includes/ee-list-settings.php:210
+msgid "Allow"
+msgstr "Povolit"
+
+#: includes/ee-list-settings.php:217
+msgid "Allow file deletion, file renaming, editing descriptions and dates."
+msgstr "Umožňuje mazání souborů, přejmenování souborů, úpravu popisů a dat."
+
+#: includes/ee-list-settings.php:218
+msgid "Upgrade to PRO"
+msgstr "Povýšit na PRO"
+
+#: includes/ee-list-settings.php:218
+msgid ""
+"Upgrade to allow greater file management control for specific users and "
+"roles."
+msgstr ""
+"Upgrade umožňující větší kontrolu správy souborů pro konkrétní uživatele a "
+"role."
+
+#: includes/ee-list-settings.php:229
+msgid "File List Style"
+msgstr "Styl seznamu souborů"
+
+#: includes/ee-list-settings.php:235
+msgid "Style"
+msgstr "Styl"
+
+#: includes/ee-list-settings.php:243
+msgid "Standard Table Display"
+msgstr "Standardní stolní displej"
+
+#: includes/ee-list-settings.php:249
+msgid "Tiles Displayed in Columns"
+msgstr "Dlaždice zobrazené ve sloupcích"
+
+#: includes/ee-list-settings.php:255
+msgid "Flexible List Display"
+msgstr "Flexibilní zobrazení seznamu"
+
+#: includes/ee-list-settings.php:258
+msgid "Choose the style of the file list: Table, Tiles or Flex."
+msgstr ""
+"Zvolte styl seznamu souborů: Zvolte možnost Tabulka, Dlaždice nebo Flex."
+
+#: includes/ee-list-settings.php:275
+msgid "Light Theme"
+msgstr "Téma světla"
+
+#: includes/ee-list-settings.php:281
+msgid "Dark Theme"
+msgstr "Tmavé téma"
+
+#: includes/ee-list-settings.php:287
+msgid "No Theme"
+msgstr "Žádné téma"
+
+#: includes/ee-list-settings.php:290
+msgid "Choose the color theme of the file list"
+msgstr "Výběr barevného motivu seznamu souborů"
+
+#: includes/ee-list-settings.php:290
+msgid "This will rely upon your theme colors"
+msgstr "To závisí na barvách vašeho motivu"
+
+#: includes/ee-list-settings.php:304
+msgid "File Sorting and Order"
+msgstr "Řazení a objednávka souborů"
+
+#: includes/ee-list-settings.php:306
+msgid "Sort By"
+msgstr "Seřadit podle"
+
+#: includes/ee-list-settings.php:321
+msgid "Date File Added"
+msgstr "Datum přidání souboru"
+
+#: includes/ee-list-settings.php:328
+msgid "Date File Changed"
+msgstr "Datum souboru změněno"
+
+#: includes/ee-list-settings.php:335 includes/ee-list-settings.php:554
+msgid "File Size"
+msgstr "Velikost souboru"
+
+#: includes/ee-list-settings.php:342
+msgid "Random"
+msgstr "Náhodně"
+
+#: includes/ee-list-settings.php:346
+msgid "Reverse Order"
+msgstr "Obrácené pořadí"
+
+#: includes/ee-list-settings.php:351
+msgid "Descending"
+msgstr "Sestupně"
+
+#: includes/ee-list-settings.php:353
+msgid "Sort the list by name, date, file size, or randomly."
+msgstr "Třídit seznam podle názvu, data, velikosti souboru nebo náhodně."
+
+#: includes/ee-list-settings.php:353
+msgid "Check the box to reverse the sort order."
+msgstr "Zaškrtněte políčko pro obrácení pořadí řazení."
+
+#: includes/ee-list-settings.php:361
+msgid "Thumbnail Generation"
+msgstr "Generování miniatur"
+
+#: includes/ee-list-settings.php:363
+msgid ""
+"You can choose to generate small representative images of large images, PDF "
+"files and videos files."
+msgstr ""
+"Můžete si zvolit generování malých reprezentativních obrázků velkých "
+"obrázků, souborů PDF a videosouborů."
+
+#: includes/ee-list-settings.php:367
+msgid "Image Thumbnails"
+msgstr "Miniatury obrázků"
+
+#: includes/ee-list-settings.php:378
+msgid "Read an image file and create a small thumbnail image."
+msgstr "Přečte soubor s obrázkem a vytvoří malý miniaturní obrázek."
+
+#: includes/ee-list-settings.php:385
+msgid "PDF Thumbnails"
+msgstr "Miniatury PDF"
+
+#: includes/ee-list-settings.php:393
+msgid "Image Magick is Not Installed. PDF thumbnails cannot be created."
+msgstr "Image Magick není nainstalován. Nelze vytvořit náhledy PDF."
+
+#: includes/ee-list-settings.php:400
+msgid "Not yet supported for PDF thumbnails."
+msgstr "zatím není podporováno pro náhledy PDF."
+
+#: includes/ee-list-settings.php:404
+msgid ""
+"Read a PDF file and create a representative thumbnail image based on the "
+"first page."
+msgstr ""
+"Přečtení souboru PDF a vytvoření reprezentativního miniaturního obrázku na "
+"základě první stránky."
+
+#: includes/ee-list-settings.php:411
+msgid "Video Thumbnails"
+msgstr "Miniatury videí"
+
+#: includes/ee-list-settings.php:419
+msgid "Video thumbnails will not be created because ffMpeg is not Installed."
+msgstr "Miniatury videa se nevytvoří, protože není nainstalován ffMpeg."
+
+#: includes/ee-list-settings.php:424
+msgid ""
+"Read a video file and create a representative thumbnail image at the 1 "
+"second mark."
+msgstr ""
+"Přečtěte soubor videa a vytvořte reprezentativní miniaturu v čase 1 sekundy."
+
+#: includes/ee-list-settings.php:459
+msgid "File Actions"
+msgstr "Akce souboru"
+
+#: includes/ee-list-settings.php:464
+msgid "Show Open Action"
+msgstr "Zobrazit akci Otevřít"
+
+#: includes/ee-list-settings.php:465 includes/ee-list-settings.php:479
+#: includes/ee-list-settings.php:494
+msgid "Show Link"
+msgstr "Zobrazit odkaz"
+
+#: includes/ee-list-settings.php:472
+msgid ""
+"Display the Open File link. If the browser cannot open the file, it will "
+"prompt the user to download."
+msgstr ""
+"Zobrazte odkaz Otevřít soubor. Pokud prohlížeč nemůže soubor otevřít, vyzve "
+"uživatele ke stažení."
+
+#: includes/ee-list-settings.php:478
+msgid "Show Download Action"
+msgstr "Zobrazit Akce stahování"
+
+#: includes/ee-list-settings.php:486
+msgid "The browser will prompt the user to download the file."
+msgstr "Prohlížeč vyzve uživatele ke stažení souboru."
+
+#: includes/ee-list-settings.php:493
+msgid "Show Copy Action"
+msgstr "Zobrazit akci Kopírovat"
+
+#: includes/ee-list-settings.php:501
+msgid "Copies the file URL to the user clipboard."
+msgstr "Zkopíruje adresu URL souboru do schránky uživatele."
+
+#: includes/ee-list-settings.php:511
+msgid "File List Display"
+msgstr "Zobrazení seznamu souborů"
+
+#: includes/ee-list-settings.php:514
+msgid "File Thumbnail"
+msgstr "Náhled souboru"
+
+#: includes/ee-list-settings.php:522
+msgid "Show file thumbnail images."
+msgstr "Zobrazit miniatury souborů."
+
+#: includes/ee-list-settings.php:528
+msgid "File Date"
+msgstr "Datum souboru"
+
+#: includes/ee-list-settings.php:537
+msgid "Date Type"
+msgstr "Typ data"
+
+#: includes/ee-list-settings.php:562
+msgid ""
+"Limit the file information to display on the front-side file list. Enter a "
+"custom label if needed."
+msgstr ""
+"Omezte informace o souboru, které se zobrazí v seznamu souborů na přední "
+"straně. V případě potřeby zadejte vlastní popisek."
+
+#: includes/ee-list-settings.php:576
+msgid ""
+"Show a description of the file, which can include keywords and special "
+"characters not allowed within the file name."
+msgstr ""
+"Zobrazit popis souboru, který může obsahovat klíčová slova a speciální "
+"znaky, které nejsou v názvu souboru povoleny."
+
+#: includes/ee-list-settings.php:582
+msgid "File Submitter"
+msgstr "Odesílatel souborů"
+
+#: includes/ee-list-settings.php:593
+msgid "Show the name of the user who uploaded the file on the front-end."
+msgstr "Zobrazení jména uživatele, který soubor nahrál na front-end."
+
+#: includes/ee-list-settings.php:598
+msgid "Table Header"
+msgstr "Záhlaví tabulky"
+
+#: includes/ee-list-settings.php:603
+msgid "Show or hide the file table header."
+msgstr "Zobrazení nebo skrytí záhlaví tabulky souborů."
+
+#: includes/ee-list-settings.php:609
+msgid "File Extension"
+msgstr "Přípona souboru"
+
+#: includes/ee-list-settings.php:614
+msgid "Show or hide the file extension."
+msgstr "Zobrazit nebo skrýt příponu souboru."
+
+#: includes/ee-list-settings.php:620
+msgid "Preserve File Name"
+msgstr "Zachovat název souboru"
+
+#: includes/ee-list-settings.php:625
+msgid "Files with illegal characters are renamed to ensure good URLs."
+msgstr ""
+"Soubory s nepovolenými znaky jsou přejmenovány, aby byly zajištěny správné "
+"adresy URL."
+
+#: includes/ee-list-settings.php:626
+msgid "This setting will preserve and show the original name as the Nice Name."
+msgstr "Toto nastavení zachová a zobrazí původní název jako Nice Name."
+
+#: includes/ee-list-settings.php:636
+msgid "Smooth-Scroll"
+msgstr "Hladké rolování"
+
+#: includes/ee-list-settings.php:638
+msgid "Use Smooth-Scroll"
+msgstr "Použití funkce Smooth Scroll"
+
+#: includes/ee-list-settings.php:645
+msgid ""
+"Uses a JavaScript effect to scroll down to the top of the list after an "
+"action. This can be helpful if the list is not located close to the top of "
+"the page."
+msgstr ""
+"Používá efekt JavaScriptu pro posun na začátek seznamu po provedení akce. To "
+"může být užitečné, pokud se seznam nenachází blízko horní části stránky."
+
+#: includes/ee-plugin-author.php:23
+msgid "Thank You"
+msgstr "Děkujeme Vám"
+
+#: includes/ee-plugin-author.php:25
+msgid ""
+"Thank you for using my plugin. I am proud of this work and am committed to "
+"supporting it."
+msgstr ""
+"Děkuji za použití mého pluginu. Jsem na tuto práci hrdý a jsem odhodlán ji "
+"podporovat."
+
+#: includes/ee-plugin-author.php:25
+msgid "The goal is to keep it simple, yet make it do what you need it to do."
+msgstr "Cílem je udržet to jednoduché, ale přesto to udělat, co potřebujete."
+
+#: includes/ee-plugin-author.php:25
+msgid "Tell me about the features that you want."
+msgstr "Povězte mi o funkcích, které chcete."
+
+#: includes/ee-plugin-author.php:31
+msgid "Contact Me"
+msgstr "Kontaktujte mě"
+
+#: includes/ee-plugin-author.php:31
+msgid "Feedback or Questions"
+msgstr "Zpětná vazba nebo dotazy"
+
+#: includes/ee-plugin-author.php:37
+msgid "Contributors"
+msgstr "Přispěvatelé"
+
+#: includes/ee-plugin-author.php:45
+msgid "Thanks to"
+msgstr "Díky"
+
+#: includes/ee-upload-form.php:72
+msgid "Email"
+msgstr "Email"
+
+#: includes/ee-upload-form.php:85
+msgid "Description"
+msgstr "Popis"
+
+#: includes/ee-upload-form.php:87
+msgid "Add a description (optional)"
+msgstr "Přidat popis (volitelný)"
+
+#: includes/ee-upload-form.php:108
+msgid "Processing the Upload"
+msgstr "Zpracování nahrávání"
+
+#: includes/ee-upload-form.php:112
+msgid "Upload"
+msgstr "Nahrát"
+
+#: includes/ee-upload-form.php:118 includes/ee-upload-settings.php:241
+msgid "File Limit"
+msgstr "Limit souboru"
+
+#: includes/ee-upload-form.php:118
+msgid "files"
+msgstr "soubory"
+
+#: includes/ee-upload-form.php:120
+msgid "Size Limit"
+msgstr "Limit velikosti"
+
+#: includes/ee-upload-form.php:122
+msgid "per file"
+msgstr "na soubor"
+
+#: includes/ee-upload-form.php:124
+msgid "Types Allowed"
+msgstr "Povolené typy"
+
+#: includes/ee-upload-form.php:126
+msgid "Drag-and-drop files here or use the Browse button."
+msgstr "Přetáhněte sem soubory nebo použijte tlačítko Procházet."
+
+#: includes/ee-upload-settings.php:129
+msgid "File Upload Restrictions"
+msgstr "Omezení nahrávání souborů"
+
+#: includes/ee-upload-settings.php:132
+msgid "Who Can Upload Files"
+msgstr "Kdo může nahrávat soubory"
+
+#: includes/ee-upload-settings.php:133
+msgid "Restrict To"
+msgstr "Omezit na"
+
+#: includes/ee-upload-settings.php:140
+msgid "Anyone Can Upload"
+msgstr "Kdokoli může nahrávat"
+
+#: includes/ee-upload-settings.php:146
+msgid "Only Logged in Users Can Upload"
+msgstr "Mohou nahrávat pouze přihlášení uživatelé"
+
+#: includes/ee-upload-settings.php:152
+msgid "Only Logged in Admins Can Upload"
+msgstr "Mohou nahrávat pouze přihlášení uživatelé"
+
+#: includes/ee-upload-settings.php:158
+msgid "Hide the Front Side Uploader Completely"
+msgstr "Úplně skryjte upload na přední straně"
+
+#: includes/ee-upload-settings.php:162
+msgid "Allow anyone to upload, only logged-in users, administrators or nobody."
+msgstr ""
+"Umožněte komukoli nahrávat, pouze přihlášeným uživatelům, správcům nebo "
+"nikomu."
+
+#: includes/ee-upload-settings.php:162
+msgid "Please use \"Anyone Can Upload\" with Caution"
+msgstr "Používejte prosím „Kdokoli může nahrávat“ opatrně"
+
+#: includes/ee-upload-settings.php:172
+msgid "Allow File Overwrite"
+msgstr "Povolit přepisování souborů"
+
+#: includes/ee-upload-settings.php:175
+msgid "Overwrite or Save as New"
+msgstr "Přepsat nebo Uložit jako nový"
+
+#: includes/ee-upload-settings.php:176
+msgid "Overwrite"
+msgstr "Přepsat"
+
+#: includes/ee-upload-settings.php:183
+msgid ""
+"Do not save new copies of files with the same name. Existing files will be "
+"overwritten."
+msgstr ""
+"Neukládejte nové kopie souborů se stejným názvem. Stávající soubory budou "
+"přepsány."
+
+#: includes/ee-upload-settings.php:193
+msgid "Upload Submitter Information"
+msgstr "Nahrát informace o odesílateli"
+
+#: includes/ee-upload-settings.php:197
+msgid "Upload Description"
+msgstr "Nahrát popis"
+
+#: includes/ee-upload-settings.php:198
+msgid "Show Input"
+msgstr "Zobrazit vstupní údaje"
+
+#: includes/ee-upload-settings.php:205
+msgid ""
+"Display an input allowing the submitter to add a text description of the "
+"file upload."
+msgstr ""
+"Zobrazí vstup umožňující odesílateli přidat textový popis nahrávaného "
+"souboru."
+
+#: includes/ee-upload-settings.php:212
+msgid "Submitter Information"
+msgstr "Informace o předkladateli"
+
+#: includes/ee-upload-settings.php:213
+msgid "Require"
+msgstr "Vyžádat"
+
+#: includes/ee-upload-settings.php:220
+msgid "Display a form with name and email which is required to be filled out."
+msgstr "Zobrazte formulář se jménem a e-mailem, který je třeba vyplnit."
+
+#: includes/ee-upload-settings.php:221
+msgid ""
+"If the user is logged in the form will not appear. The name and email "
+"address will be automatically captured from the user data."
+msgstr ""
+"Pokud je uživatel přihlášen, formulář se nezobrazí. Jméno a e-mailová adresa "
+"budou automaticky zachyceny z údajů uživatele."
+
+#: includes/ee-upload-settings.php:237
+msgid "Upload Job Limits"
+msgstr "Nahrajte limity úloh"
+
+#: includes/ee-upload-settings.php:240
+msgid "Maximum Files Limit"
+msgstr "Maximální limit souborů"
+
+#: includes/ee-upload-settings.php:244
+msgid "The maximum number of files that may be uploaded per submission."
+msgstr "Maximální počet souborů, které lze nahrát na odeslání."
+
+#: includes/ee-upload-settings.php:254
+msgid "Maximum File Size"
+msgstr "Maximální velikost souboru"
+
+#: includes/ee-upload-settings.php:258
+msgid "Your hosting limits the maximum file upload size to"
+msgstr "Váš hosting omezuje maximální velikost nahrávání souborů na"
+
+#: includes/ee-upload-settings.php:267
+msgid "Allowed File Types"
+msgstr "Povolené typy souborů"
+
+#: includes/ee-upload-settings.php:271
+msgid "File Types"
+msgstr "Typy souborů"
+
+#: includes/ee-upload-settings.php:274
+msgid "Only use the file types you absolutely need, such as"
+msgstr ""
+"Používejte pouze ty typy souborů, které absolutně potřebujete, například"
+
+#: includes/ee-upload-settings.php:283
+msgid "Display"
+msgstr "Zobrazit"
+
+#: includes/ee-upload-settings.php:286
+msgid "Upload Form Position"
+msgstr "Nahrát formulář Pozice"
+
+#: includes/ee-upload-settings.php:287
+msgid "Position"
+msgstr "Pozice"
+
+#: includes/ee-upload-settings.php:288
+msgid "Choose Position"
+msgstr "Zvolte si pozici"
+
+#: includes/ee-upload-settings.php:292
+msgid "Above"
+msgstr "Nad"
+
+#: includes/ee-upload-settings.php:296
+msgid "Below"
+msgstr "Pod"
+
+#: includes/ee-upload-settings.php:299
+msgid "Choose to show the upload form either above or below the file list."
+msgstr ""
+"Zvolte, zda se má formulář pro nahrávání zobrazit nad nebo pod seznamem "
+"souborů."
+
+#: includes/ee-upload-settings.php:304
+msgid "Confirmation"
+msgstr "Potvrzení"
+
+#: includes/ee-upload-settings.php:305
+msgid "Show Results"
+msgstr "Zobrazit výsledky"
+
+#: includes/ee-upload-settings.php:312
+msgid ""
+"Show a resulting list of the files uploaded, or proceed directly back to the "
+"file list."
+msgstr ""
+"Zobrazte výsledný seznam nahraných souborů nebo přejděte přímo zpět na "
+"seznam souborů."
+
+#: includes/ee-upload-settings.php:317
+msgid "Show Upload Limits"
+msgstr "Zobrazit limity nahrávání"
+
+#: includes/ee-upload-settings.php:318
+msgid "Show Limits"
+msgstr "Zobrazit limity"
+
+#: includes/ee-upload-settings.php:325
+msgid ""
+"Display upload limitations on the front-end, such as size and types allowed."
+msgstr ""
+"Zobrazení omezení nahrávání ve front-endu, jako je povolená velikost a typy."
+
+#. Plugin Name of the plugin/theme
+msgid "Simple File List"
+msgstr "Simple File List"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://simplefilelist.com"
+msgstr "http://simplefilelist.com"
+
+#. Description of the plugin/theme
+msgid "A Basic File List Manager with File Uploader"
+msgstr "Základní správce seznamu souborů s nástrojem pro nahrávání souborů"
+
+#. Author of the plugin/theme
+msgid "Mitchell Bennis"
+msgstr "Mitchell Bennis"
+
+#~ msgid ""
+#~ "Plus, add extensions for larger file lists and flexible user management."
+#~ msgstr ""
+#~ "Navíc můžete přidat rozšíření pro větší seznamy souborů a flexibilní "
+#~ "správu uživatelů."
+
+#~ msgid "Recipients"
+#~ msgstr "Příjemci"
+
+#~ msgid "Allow front-end users to download a folder as a zip file."
+#~ msgstr "Umožněte uživatelům front-endu stáhnout složku jako soubor ZIP."
+
+#~ msgid "Share files by sending emails containing file links to others."
+#~ msgstr ""
+#~ "Sdílejte soubory zasíláním e-mailů obsahujících odkazy na soubory "
+#~ "ostatním."
+
+#~ msgid "Take the Product Tour"
+#~ msgstr "Prohlídka produktu"
+
+#~ msgid "Optionally add extensions to add further functionality."
+#~ msgstr "Volitelně přidejte rozšíření a přidejte další funkce."
+
+#~ msgid "The Database Update Failed"
+#~ msgstr "Aktualizace databáze se nezdařila"
+
+#~ msgid ""
+#~ "Upgrade to allow much more precise user and role access to file lists."
+#~ msgstr ""
+#~ "Upgrade umožňující mnohem přesnější přístup uživatelů a rolí k seznamům "
+#~ "souborů."
+
+#~ msgid "Allow File Management"
+#~ msgstr "Povolit správu souborů"
+
+#~ msgid "Preserve Spaces"
+#~ msgstr "Zachovat prostory"
+
+#~ msgid ""
+#~ "Spaces in file names are replaced with hyphens in order to make the URL "
+#~ "legal."
+#~ msgstr ""
+#~ "Mezery v názvech souborů jsou nahrazeny pomlčkami, aby byla adresa URL "
+#~ "legální."
+
+#~ msgid "This setting will revert this action for display."
+#~ msgstr "Toto nastavení vrátí tuto akci k zobrazení."
+
+#~ msgid "Uploader"
+#~ msgstr "Nahrávání"
+
+#~ msgid "File Thumbnails"
+#~ msgstr "Ukládejte miniatury"
+
+#~ msgid "Sort Order"
+#~ msgstr "Nastavit pořadí řazení"
+
+#~ msgid "Default"
+#~ msgstr "Výchozí"
+
+#~ msgid "Shortcode Documentation"
+#~ msgstr "Dokumentace zkráceného kódu"
+
+#~ msgid "Create Shortcode"
+#~ msgstr "Vytvořit zkrácený zápis"
+
+#~ msgid ""
+#~ "Simply place this bit of shortcode in any post, page or widget that you "
+#~ "would like the plugin to appear."
+#~ msgstr ""
+#~ "Jednoduše vložte tento kousek zkráceného kódu do libovolného příspěvku, "
+#~ "stránky nebo widgetu, který chcete, aby se plugin zobrazil."
+
+#~ msgid ""
+#~ "Both the file list and uploader will be displayed using the plugin "
+#~ "settings."
+#~ msgstr "Seznam souborů i uploader se zobrazí pomocí nastavení pluginu."
+
+#~ msgid ""
+#~ "Optionally, use the Shortcode Builder below to create a custom shortcode."
+#~ msgstr ""
+#~ "Volitelně použijte níže uvedený Tvůrce krátkých kódů a vytvořte vlastní "
+#~ "krátký kód."
+
+#~ msgid "COPY"
+#~ msgstr "KOPÍROVAT"
+
+#~ msgid "Create Page with Shortcode"
+#~ msgstr "Vytvořit stránku pomocí Shortcode"
+
+#~ msgid "Create Post with Shortcode"
+#~ msgstr "Vytvořit příspěvek pomocí zkráceného kódu"
+
+#~ msgid "Go"
+#~ msgstr "Přejít"
+
+#~ msgid "Shortcode Builder"
+#~ msgstr "Stavitel Shortcodů"
+
+#~ msgid "Show File List"
+#~ msgstr "Zobrazit seznam souborů"
+
+#~ msgid "Show Only to Logged-in Users"
+#~ msgstr "Zobrazit pouze přihlášeným uživatelům"
+
+#~ msgid "Show Only to Logged-in Administrators"
+#~ msgstr "Zobrazit pouze přihlášeným správcům"
+
+#~ msgid "Hide the List"
+#~ msgstr "Skrýt seznam"
+
+#~ msgid "Show Uploader"
+#~ msgstr "Zobrazit uploader"
+
+#~ msgid "Hide the Uploader"
+#~ msgstr "Skrýt uploader"
+
+#~ msgid "Submitter:"
+#~ msgstr "Zadavatel:"
+
+#~ msgid "No upload directory configured."
+#~ msgstr "Není nakonfigurován žádný adresář pro nahrávání."
+
+#~ msgid "DEVELOPMENT MODE ON"
+#~ msgstr "REŽIM ROZVOJE ZAPNUTÝ"
+
+#~ msgid "Submitted by"
+#~ msgstr "Předložené"
+
+#~ msgid "Modified"
+#~ msgstr "Změněno"
+
+#~ msgid "IMPORTANT"
+#~ msgstr "DŮLEŽITÉ"
+
+#~ msgid ""
+#~ "Extensions are no longer supported for the free version of Simple File "
+#~ "List."
+#~ msgstr ""
+#~ "U bezplatné verze seznamu jednoduchých souborů již rozšíření nejsou "
+#~ "podporována."
+
+#~ msgid "Please upgrade to the Pro version."
+#~ msgstr "Upgradujte na verzi Pro."
+
+#~ msgid "Free Upgrade"
+#~ msgstr "Upgrade zdarma"
+
+#~ msgid "Plugin Version"
+#~ msgstr "Verze pluginu"
+
+#~ msgid "Sender Name"
+#~ msgstr "Jméno odesílatele"
+
+#~ msgid "Notification Subject"
+#~ msgstr "Předmět notifikace"
+
+#~ msgid "To insert file information and link, use this shortcode:"
+#~ msgstr ""
+#~ "Chcete-li vložit informace o souboru a odkaz, použijte tento zkrácený kód:"
+
+#~ msgid "The Pro version adds features not available in the free version."
+#~ msgstr "Verze Pro přidává funkce, které nejsou k dispozici ve verzi zdarma."
+
+#~ msgid "Get Pro Version"
+#~ msgstr "Získat verzi Pro"
+
+#~ msgid "File List Behavior"
+#~ msgstr "Chování seznamu souborů"
+
+#~ msgid "Get File Access Manager"
+#~ msgstr "Získejte správce přístupu k souborům"
+
+#~ msgid ""
+#~ "The Pro version allows you to add the \"File Access Manager\" extension.  "
+#~ "This gives you improved user access control."
+#~ msgstr ""
+#~ "Verze Pro vám umožňuje přidat příponu „File Access Manager“. Tím získáte "
+#~ "vylepšenou kontrolu přístupu uživatelů."
+
+#~ msgid "The list is sorted Ascending by default"
+#~ msgstr "Ve výchozím nastavení je seznam seřazen vzestupně"
+
+#~ msgid "Small to Large"
+#~ msgstr "Malé až velké"
+
+#~ msgid "Old to New"
+#~ msgstr "Staré až nové"
+
+#~ msgid "Using"
+#~ msgstr "Používám"
+
+#~ msgid "Missing"
+#~ msgstr "Chybějící"
+
+#~ msgid ""
+#~ "Please install the missing PHP extensions to activate the disabled "
+#~ "features."
+#~ msgstr ""
+#~ "Nainstalujte prosím chybějící rozšíření PHP, abyste aktivovali zakázané "
+#~ "funkce."
+
+#~ msgid "File List Table Information"
+#~ msgstr "Informace o tabulce seznamu souborů"
+
+#~ msgid "Item"
+#~ msgstr "Položka"
+
+#~ msgid "Label"
+#~ msgstr "Štítek"
+
+#~ msgid "Show Header"
+#~ msgstr "Zobrazit záhlaví"
+
+#~ msgid "Scroll to the List"
+#~ msgstr "Přejděte na seznam"
+
+#~ msgid "File Details"
+#~ msgstr "Podrobnosti o souboru"
+
+#~ msgid "Show File Owner"
+#~ msgstr "Zobrazit vlastníka souboru"
+
+#~ msgid "Show on Front-End"
+#~ msgstr "Zobrazit na front-endu"
+
+#~ msgid "Description of the file"
+#~ msgstr "Popis souboru"
+
+#~ msgid "Display the file description below the file name."
+#~ msgstr "Zobrazit popis souboru pod názvem souboru."
+
+#~ msgid "File Name Spaces"
+#~ msgstr "Prostory názvů souborů"
+
+#~ msgid "Show File Actions"
+#~ msgstr "Zobrazit akce souboru"
+
+#~ msgid "Open, Download, etc."
+#~ msgstr "Otevřít, Stáhnout atd."
+
+#~ msgid "Opens the File"
+#~ msgstr "Otevře soubor"
+
+#~ msgid "Download the File"
+#~ msgstr "Stáhněte si zip soubor"
+
+#~ msgid "Copy the File URL"
+#~ msgstr "Zkopírujte adresu URL souboru"
+
+#~ msgid ""
+#~ "Copies the URL for the file, which can then be pasted into a document."
+#~ msgstr "Zkopíruje adresu URL souboru, kterou lze poté vložit do dokumentu."
+
+#~ msgid "Show Your Support"
+#~ msgstr "Ukažte svou podporu"
+
+#~ msgid "Upload Settings"
+#~ msgstr "Nastavení odesílání"
+
+#~ msgid "Do not number files, overwrite instead."
+#~ msgstr "Nečíslujte soubory, místo toho je přepište."
+
+#~ msgid "Use with caution!"
+#~ msgstr "Používejte opatrně!"
+
+#~ msgid "Get File Owner Information"
+#~ msgstr "Získejte informace o vlastníkovi souboru"
+
+#~ msgid "Get name, email and description"
+#~ msgstr "Získejte jméno, e-mail a popis"
+
+#~ msgid ""
+#~ "Display a form which must be filled out before a file is uploaded; Name, "
+#~ "Email, Description"
+#~ msgstr ""
+#~ "Zobrazit formulář, který musí být vyplněn před nahráním souboru; Jméno, e-"
+#~ "mail, popis"
+
+#~ msgid "This user information can be displayed along with the file."
+#~ msgstr "Tyto informace o uživateli lze zobrazit společně se souborem."
+
+#~ msgid "Show the user file size, number and file type restrictions."
+#~ msgstr "Zobrazit omezení velikosti, počtu a typu souboru uživatele."
+
+#~ msgid "File List Cache"
+#~ msgstr "Mezipaměť seznamu souborů"
+
+#~ msgid "Use the File List Cache"
+#~ msgstr "Použijte mezipaměť seznamu souborů"
+
+#~ msgid "Reduce server load by only scanning the hard disk occasionally."
+#~ msgstr ""
+#~ "Snižte zatížení serveru pouze příležitostným skenováním pevného disku."
+
+#~ msgid ""
+#~ "If you use FTP or another method to upload files to your list, turn this "
+#~ "off to re-scan the files before each page load."
+#~ msgstr ""
+#~ "Pokud k nahrávání souborů do seznamu používáte FTP nebo jinou metodu, "
+#~ "vypněte toto a znovu načtěte soubory před načtením každé stránky."
+
+#~ msgid "Show file action links below each file name on the front-end list"
+#~ msgstr ""
+#~ "Zobrazit odkazy na akce se soubory pod každým názvem souboru v seznamu "
+#~ "front-end"
+
+#~ msgid "Missing: "
+#~ msgstr "Chybí"
